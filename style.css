@@ -1,0 +1,183 @@
+nav{
+
+    background-color: rgba(90,90,90, 0.0);
+
+    height:170px;
+    width:1570px ;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+   
+    
+   
+
+}
+
+li{
+justify-content: end;
+    float: right;
+    border: 50px;
+    margin: 50px;
+    list-style: none;
+    align-content: flex-end;
+}
+
+li,a{
+color: black ;
+    text-decoration: none;
+    float: end;
+    justify-content: end;
+    margin-bottom: auto;
+
+    
+}
+
+
+a:hover{
+
+    color: FF0000;
+
+}
+
+
+a{
+
+    align-content: flex-end;
+
+}
+
+
+#first{
+
+background-image: url("/images/istockphoto-8.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.primary-cta{
+   
+    border-radius: 10px;
+    color: 0ffff;
+    border: 1px grey solid;
+    background-color: grey;
+    height: 90px;
+    width: 90px;
+    padding: 20px;
+
+    
+    
+
+}
+
+.box{
+
+border: 2px black solid;
+
+font-size: larger;
+height: 150px;
+width: 550px;
+margin: 90px;
+margin-left: -30px;
+padding-left: 60px;
+padding-top: 30px;
+
+}
+
+section{
+
+margin-left: 90px;
+
+}
+
+.container-fluid{
+
+     color: black;
+}
+
+#n-kay{
+
+    font-size: larger;
+}
+
+.footer-distributed{
+
+background: #444;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0,  0.12);
+box-sizing: border-box;
+width: 100%;
+text-align: left;
+padding: 50px 60px 40px;
+overflow: hidden;
+
+}
+
+#second{
+
+    width: 100%;
+    display: inline-block;
+    background: #ccc;
+    height: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#about{
+
+background-color: #Dbe1f5;
+}
+
+@media(min-width: 700px){
+
+    .container-fluid{
+
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 30%;
+      
+    }
+    
+    .sub-1{
+    
+    border: 2px white solid;
+    
+    
+    }
+    
+    .sub-2{
+    
+        border: 2px white solid;
+    
+    }
+
+
+
+}
+
+.insert{
+
+   text-align: center;
+   margin-top: 40px;
+}
+
+#btn{
+
+border-radius: 5px;
+
+}
+
+.top-2{
+
+    display: flex;
+}
+
+#first{
+
+margin-right: 700px;
+margin-bottom: 300px;
+
+}
